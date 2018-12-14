@@ -10,6 +10,26 @@
 <body>
 
   <!-- HTML för att implementera krav A-E -->
+  <!--navigation-->
+  <nav>
+    <a href="#" id="posts">Posts</a>
+    <a href="#" id="newPost" style="margin-left: 20px;">New Post</a>
+  </nav>
+
+  <h1 id="headline">JsonPlaceHolder - Albums</h1>
+  
+  <!--form-->
+  <div id="myFormID">
+    <h1>Add a new product post!</h1>
+    <form id="myForm">
+      <label>Title:</label><br>
+      <input type="text" id="userTitle">
+      <label>Content</label><br>
+      <textarea id="userContent"></textarea><br>
+      <button type="submit" id="submitForm">SUBMIT</button><br>
+      <span id="status"></span>
+    </form>
+  </div>
 
   <!-- Scripts -->
   <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
