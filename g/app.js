@@ -87,3 +87,5 @@ function displayPhotos(photos) {
         }
     }    
 }
+
+//NOTICE ALBUMS.ID IS MATCHED WITH PHOTOS.ALBUMID
