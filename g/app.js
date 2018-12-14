@@ -78,6 +78,7 @@ function displayPhotos(photos) {
         
             let printingPhotos = findMatch.map(photo =>                        //why cant I print directly from filter()?
                 `<br>
+                <p>Photo Title:  ${photo.title}</p>
                 <img src = "${photo.thumbnailUrl}">
                 <hr>`
             );
